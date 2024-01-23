@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Developer Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Kristi Rrapaj</h2>
+            <p>My website</p>
+        </div>
+    </div>
     <header>
         <nav>
             <ul>
@@ -28,6 +36,14 @@
         </section>
         <section id="resume">
             <h2>Resume</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">Junior Software Developer</span><span class="icon" aria-hidden="true"></span></button>
+                    <div class="accordion-content">
+                        <p>bim bim bam</p>
+                    </div>
+                </div>
+            </div>
             <!-- Resume Details -->
         </section>
         <section id="contact">
