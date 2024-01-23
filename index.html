@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Developer Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href=".\styles\style.css">
 </head>
 <body>
     <div id="projectModal" class="modal">
@@ -27,13 +27,42 @@
     </header>
     <main>
         <section id="about">
-            <h1>Kristi Rrapaj</h1>
-            <p>Software Developer, Graphic Designer</p>
+            <div class="title">
+                <h1>KRISTI RRAPAJ</h1>
+                </div>
+            <h2>Software Developer, Graphic Designer</h2>
+            <br>
+            <div class="aboutme">
+                <p>My name is Kristi Rrapaj, I am a Software Developer and Graphic Designer.<br><br> I have a Bachelor's Degree in Game Programming and currently studying Computer Engineering at the University of Pisa, Italy.<br> I am currently working as a Junior Software Developer at <a href="https://www.3dflow.net/">Sistemi Territoriali</a>, a company that develops GIS software for public utilities.<br> I am also a freelance Graphic Designer, I have worked on several projects, including logos, posters, flyers, video editing, etc. <br><br>I am a very passionate person, I love what I do and I am always looking for new challenges.</p>
+            </div>
         </section>
         <section id="portfolio">
             <h2>Portfolio</h2>
-            <!-- Project Items -->
+            <div class="card-container">
+                <div class="card">
+                    <img src=".\img\dsgen.png" alt="Project 1">
+                    <div class="card-description">
+                        <h3>DS Generator</h3>
+                        <p>WPF Application in C# that fetches data from a given database (MySql or Postgresql) and creates .XML configuration files from its tables.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src=".\img\necrologium.png" alt="Project 2">
+                    <div class="card-description">
+                        <h3>Necrologium</h3>
+                        <p>3D Videogame developed in C# with Unity Engine, immersive gameplay set in 19th century backgrounds.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src=".\img\hserver.png" alt="Project 3">
+                    <div class="card-description">
+                        <h3>Unity Highscore Server</h3>
+                        <p>Using AWS database for holding and managing a highscore server for Unity Engine projects.</p>
+                    </div>
+                </div>
+            </div>
         </section>
+        
         <section id="resume">
             <h2>Resume</h2>
             <div class="accordion">

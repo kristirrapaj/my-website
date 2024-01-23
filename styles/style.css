@@ -1,7 +1,7 @@
 body {
     background-color: #121212;
     color: #fff;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Century Gothic', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -12,11 +12,22 @@ header {
     padding: 1em 0;
 }
 
+.title {
+    color: rgb(255, 255, 255);
+    text-size-adjust: 100%;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
     display: flex;
     justify-content: center;
+}
+
+.aboutme {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
 }
 
 nav ul li {
@@ -123,41 +134,4 @@ header {
     color: black;
     text-decoration: none;
     cursor: pointer;
-}
-
-/* Accordion Styles */
-.accordion {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    transition: 0.4s;
-}
-
-.active, .accordion:hover {
-    background-color: #ccc;
-}
-
-.accordion:after {
-    content: '\002B';
-    color: #777;
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
-}
-
-.active:after {
-    content: "\2212";
-}
-
-.accordion-content {
-    padding: 0 18px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-    background-color: white;
 }
