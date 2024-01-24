@@ -14,7 +14,7 @@ header {
 
 .title {
     color: rgb(255, 255, 255);
-    text-size-adjust: 100%;
+    font-size: 3em;
 }
 
 nav ul {
@@ -38,6 +38,13 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 1.2em;
+}
+
+.profile-img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 section {
@@ -72,25 +79,6 @@ header {
 }
 
 /* Modal Styles */
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(0,0,0,0.4);
-}
-
-.modal-content {
-    background-color: #fefefe;
-    margin: 15% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-}
 
 .card-container {
     display: flex;
@@ -122,16 +110,92 @@ header {
 }
 
 
-.close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+#resume {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.close:hover,
-.close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
+#resume h2, #resume h3 {
+    color: #ffffff;;
+    padding-bottom: 5px;
 }
+
+.resume-section, .resume-section1, .resume-section2 {
+    margin-bottom: 20px;
+}
+
+.resume-section h3, .resume-section1 h3, .resume-section2 h3 {
+    color: #000000;
+    margin-top: 20px;
+}
+
+.resume-section ul, .resume-section1 div, .resume-section2 div {
+    margin-left: 20px;
+}
+
+.resume-section li {
+    list-style-type: circle;
+}
+
+.job h4, .education h4 {
+    color: #da7676;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.job p, .education p {
+    color: #e6d3d3;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.job:first-child, .education:first-child {
+    margin-top: 10px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.skill-group {
+    flex: 1;
+    min-width: 200px; /* minimum width for each skill group */
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #5f0000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skill-group h4 {
+    margin-top: 0;
+    color: #8f1e1e;
+}
+
+.skill-group ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skill-group li {
+    margin-left: 20px;
+    position: relative;
+}
+
+.skill-group li::before {
+    content: "•";
+    color: #0d0101;
+    position: absolute;
+    left: -20px;
+}
+
+
+
