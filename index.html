@@ -20,6 +20,7 @@
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#gallery">Art Gallery</a></li>
                 <li><a href="#resume">Resume</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -27,17 +28,24 @@
     </header>
     <main>
         <section id="about">
+            <div class="profile-img">
+                <img src=".\img\profile.png" alt="Profile Picture" width="200px">
+            </div>
             <div class="title">
-                <h1>KRISTI RRAPAJ</h1>
+                <strong>KRISTI RRAPAJ</strong>
                 </div>
             <h2>Software Developer, Graphic Designer</h2>
             <br>
             <div class="aboutme">
-                <p>My name is Kristi Rrapaj, I am a Software Developer and Graphic Designer.<br><br> I have a Bachelor's Degree in Game Programming and currently studying Computer Engineering at the University of Pisa, Italy.<br> I am currently working as a Junior Software Developer at <a href="https://www.3dflow.net/">Sistemi Territoriali</a>, a company that develops GIS software for public utilities.<br> I am also a freelance Graphic Designer, I have worked on several projects, including logos, posters, flyers, video editing, etc. <br><br>I am a very passionate person, I love what I do and I am always looking for new challenges.</p>
+                <p>My name is Kristi Rrapaj, I am a Software Developer and Graphic Designer.<br><br> I have a Bachelor's Degree in Game Programming and currently studying Computer Engineering at the University of Pisa, Italy.<br> I am currently working as a Junior Software Developer at Sistemi Territoriali, a company that develops GIS software for public utilities.<br> I am also a freelance Graphic Designer, I have worked on several projects, including logos, posters, flyers, video editing, etc. <br><br>I am a very passionate person, I love what I do and I am always looking for new challenges.</p>
             </div>
+        </section>
+        <section id="gallery">
+            <h2>Art Gallery</h2>
         </section>
         <section id="portfolio">
             <h2>Portfolio</h2>
+            <p>Here are some of my projects.</p>
             <div class="card-container">
                 <div class="card">
                     <img src=".\img\dsgen.png" alt="Project 1">
@@ -62,19 +70,93 @@
                 </div>
             </div>
         </section>
-        
-        <section id="resume">
-            <h2>Resume</h2>
-            <div class="accordion">
-                <div class="accordion-item">
-                    <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">Junior Software Developer</span><span class="icon" aria-hidden="true"></span></button>
-                    <div class="accordion-content">
-                        <p>bim bim bam</p>
+            <!-- Resume Details -->
+            <section id="resume">
+                <h2>Resume</h2>
+                <div class="resume-section">
+                    <h3>Skills</h3>
+        <div class="skills-container">
+            <div class="skill-group">
+                <h4>Programming Languages</h4>
+                <ul>
+                    <p>JavaScript</p>
+                    <p>C++</p>
+                    <p>C</p>
+                    <p>Python</p>
+                    <p>C#</p>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h4>Web Development</h4>
+                <ul>
+                    <p>React</p>
+                    <p>HTML/CSS</p>
+                    <p>Flutter</p>
+                    <p>Angular</p>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h4>Software and Tools</h4>
+                <ul>
+                    <p>Unity Engine</p>
+                    <p>Visual Studio</p>
+                    <p>JetBrains IDEs</p>
+                    <p>AWS</p>
+                    <p>Microsoft Azure</p>
+                    <p>SQL</p>
+                    <p>Git</p>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h4>Operating Systems</h4>
+                <ul>
+                    <p>Linux</p>
+                    <p>Windows</p>
+                    <p>MacOS</p>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h4>Design Tools</h4>
+                <ul>
+                    <p>Adobe Photoshop</p>
+                    <p>Adobe Illustrator</p>
+                    <p>Adobe After Effects</p>
+                    <p>Procreate</p>
+                </ul>
+            </div>
+        </div>
+    </div>
+                </div>
+                <div class="resume-section1">
+                    <h3>Experience</h3>
+                    <div class="job">
+                        <h4>Junior Software Developer</h4>
+                        <p>SISTEMI TERRITORIALI, 2023 - Present</p>
+                        <p>Full-stack developer in the GIS Industry for public utilities management, specifically water resources. Right now I am working on the creation of add-ins requested by our clients, modifying front-end Angular components of our web applications and writing queries for the back-end services to fetch information from our data cubes.</p>
+                    </div>
+                    <div class="job">
+                        <h4>Freelance Graphic Designer</h4>
+                        <p>2018 - Present</p>
+                        <p>I have worked on several projects, including logos, posters, flyers, video editing, etc. On my free time I edit AMV for my YouTube channel and TikTok account. I also design CVs for people.</p>
+                    <div class="job">
+                        <h4>Game Developer</h4>
+                        <p>Necrologium, 2021 - 2023</p>
+                        <p>Was part of the developing team of Necrologium, a 3D videogame in C# with Unity Engine, one of the most successful projects of the THESIGN Academy.</p>
+                </div>
+                <div class="resume-section2">
+                    <h3>Education</h3>
+                    <div class="education">
+                        <h4>Game Programming</h4>
+                        <p>THESIGN Academy, 2020-2023</p>
+                        <p>3-year Bachelor's Degree in Game Programming.</p>
+                    </div>
+                    <div class="education">
+                        <h4>Computer Engineering</h4>
+                        <p>University of Pisa, 2017-Present</p>
+                        <p>Currently studying Computer Engineering at the University of Pisa, Italy.</p>
                     </div>
                 </div>
-            </div>
-            <!-- Resume Details -->
-        </section>
+            </section>
         <section id="contact">
             <h2>Contact</h2>
             <!-- Contact Information -->
